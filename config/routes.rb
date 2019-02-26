@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
-
+  post 'candidates/character_info' => 'candidates#character_info'
+  get 'candidates/c_new' => 'candidates#c_new'
   get 'candidates/character_info' => 'candidates#character_info'
+  get 'candidates/guitargirl' => 'candidates#guitargirl'
+  get 'candidates/schoolboy' => 'candidates#schoolboy'
+  get 'candidates/tsunderegirl' => 'candidates#tsunderegirl'
+
   get 'candidates/result' => 'candidates#result'
   resources :candidates do
     member do

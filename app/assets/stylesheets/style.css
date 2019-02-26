@@ -36,7 +36,6 @@ hr{
 body {
     font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
     text-align: center
-    
 }
 
 .main_img_li{
@@ -50,11 +49,6 @@ body {
     font-size: 30px;
 }
 
-.season_ul{
-    width: auto;
-    height: auto;
-
-}
 
 .main_img img:hover {
     transition: opacity 1s ease 0s;
@@ -69,13 +63,15 @@ body {
 .img_mini{
 
     width: auto; height: auto;
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 1em;
 }
 .img_profile{
     width: auto; height: auto;
     max-width: 400px;
     max-height: 400px;
+    margin: 2em;
 }
 .img_vote{
     width: auto; height: auto;
@@ -101,8 +97,11 @@ li {
     margin: 0 10%;    
     float: center;
 }
-.vote_text {
-    float: center;
+table {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    text-align: center;
 }
  footer {
     background-color: #46331ecc;
