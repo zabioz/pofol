@@ -1,5 +1,5 @@
 <div class="p">
-<%= link_to "キャラクター登録", candidates_c_new_path%>
+<%= link_to "情報登録", candidates_c_new_path%>
 </div>
 
 <body>
@@ -24,12 +24,13 @@
        <p>tsundere_girl</p>
        </li>
        </div>
-   
+       </ul>
+</body>
 <% @pictures.each do |picture| %>
   <%= picture.image %>
   <%= picture.caption %>
 
   <% end %>
-  </body>
+ 
 
   
