@@ -1,0 +1,33 @@
+<div class="p">
+  <%= link_to "キャラクター登録", new_candidate_path %>
+</div>
+    
+    <body>
+    <ul>
+    <div class="main_img">
+    <li>
+    <div class="col-sm-4">
+    <a><img class="img_vote" src= "<%=asset_path'music_guitarist_girl.png'%>" alt="기타걸"></a>
+    </div>
+    </li>
+        <li>
+    <div class="col-sm-4">
+    <a><img class="img_vote" src= "<%=asset_path'happy_schoolboy.png'%>" alt="스쿨보이"></a>
+    </div>
+    </li>
+    <li>
+      <div class="col-sm-4">
+    <a><img class="img_vote" src= "<%=asset_path'tsundere_girl.png'%>" alt="츤데레걸"></a>
+       </div>
+       </li>
+       </div>
+    </ul>
+      <% @candidates.each do |candidate| %>
+     
+        <li class="vote_name"> <%= candidate.name %>
+        <%= link_to "投票", vote_candidate_path(candidate), method: "post", data: { confirm: "本当にこのキャラに投票します?" } %></li>
+        
+       
+      <% end %>
+
+          </body>

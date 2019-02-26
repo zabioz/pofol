@@ -1,0 +1,16 @@
+<table class="vote_text">
+<thead>
+  <tr>
+    <td>名前</td>
+    <td>投票数</td>
+  </tr>
+</thead>
+<tbody>
+ <% @candidates.each do |candidate| %>
+      <tr>
+         <td><%= candidate.name %></td>
+        <td><%= candidate.vote_logs.count %></td>
+        </tr>
+      <% end %>
+      </tbody>
+  </table>

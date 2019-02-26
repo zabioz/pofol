@@ -1,0 +1,11 @@
+<h1>キャラクター登録</h1>
+
+  <%= form_for @picture, url: candidates_character_info_path, html: { multipart: true } do |picture| %>
+    
+    <%= picture.file_field :image %>
+    <%= picture.submit %>
+  <% end %>
+
+
+  <br />
+  <%= link_to '戻る', candidates_character_info_path %>
