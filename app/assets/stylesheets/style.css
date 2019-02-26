@@ -49,11 +49,6 @@ body {
     font-size: 30px;
 }
 
-
-.main_img img:hover {
-    transition: opacity 1s ease 0s;
-    opacity: .5;
-}
 .img_index{
     width: auto;
     height: auto; 
