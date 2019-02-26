@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190225143506) do
+ActiveRecord::Schema.define(version: 20190226090320) do
 
   create_table "candidates", force: :cascade do |t|
     t.string   "name"
@@ -20,6 +20,14 @@ ActiveRecord::Schema.define(version: 20190225143506) do
     t.integer  "votes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "pictures", force: :cascade do |t|
+    t.integer  "candidate_id"
+    t.string   "picture"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+    t.index ["candidate_id"], name: "index_pictures_on_candidate_id"
   end
 
   create_table "vote_logs", force: :cascade do |t|

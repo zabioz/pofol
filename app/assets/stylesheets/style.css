@@ -7,8 +7,10 @@ header {
     height: 50px;
     font-size: 20px;
     text-align: center;
-    position: fixed;
-    top: 10px;  
+    
+}
+.p{
+    text-align : right;
 }
 .navbar.navbar-8 .navbar-toggler-icon {
     background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=#ffbc40');
@@ -32,15 +34,9 @@ hr{
     border-color:rgb(255, 197, 109);
 }
 body {
-    margin-top: 10%;
     font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
     text-align: center
     
-}
-h2 {
-    text-align: left;
-    margin-left: 20px;
-    color: #9c8451;
 }
 
 .main_img_li{
@@ -85,7 +81,7 @@ h2 {
     width: auto; height: auto;
     max-width: 300px;
     max-height: 450px;
-    margin: 1em;
+    margin: 2em;
 }
 .radio_text {
     width: 300px;
@@ -101,6 +97,13 @@ li {
     margin-left: auto;
     margin-right: auto;
  } 
+ li.vote_name {
+    margin: 0 10%;    
+    float: center;
+}
+.vote_text {
+    float: center;
+}
  footer {
     background-color: #46331ecc;
     width: 100%;

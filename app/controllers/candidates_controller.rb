@@ -1,4 +1,8 @@
 class CandidatesController < ApplicationController
+        def character_info
+          @candidates = Candidate.all
+        end
+
         def result
           @candidates = Candidate.all
         end  
@@ -12,10 +16,18 @@ class CandidatesController < ApplicationController
               file.write(uploaded_io.read)
             end
           end
-
+                  
         def new
           @candidate = Candidate.new
         end
+        
+        def picture
+          @candidate = Candidate.find_by(id: params[:id])
+          @candidate.pictures.create(picture: request.remote_ip) if @candidate
+
+          redirect_to candidates_path, notice: "success"
+        end        
+
         def vote
           @candidate = Candidate.find_by(id: params[:id])
           @candidate.vote_logs.create(ip_address: request.remote_ip) if @candidate
