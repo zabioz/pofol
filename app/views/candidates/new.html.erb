@@ -1,0 +1,17 @@
+<h1>キャラクター登録</h1>
+
+  <%= form_for(@candidate) do |f| %>
+    <%= f.label :name, "姓名" %>
+    <%= f.text_field :name %> <br />
+
+    <%= f.file_field :picture %>
+
+    <%= f.submit %>
+  <% end %>
+
+  
+  
+  
+
+  <br />
+  <%= link_to '戻る', candidates_path %>

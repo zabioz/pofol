@@ -1,0 +1,21 @@
+<h1>キャラクター人気投票</h1>
+
+  <%= link_to "キャラクター登録", new_candidate_path %>
+
+  <table>
+    <thead>
+      <tr>
+        <td>名前</td>
+      </tr>
+    </thead>
+    <tbody>
+      <% @candidates.each do |candidate| %>
+      <tr>
+        <td><%= candidate.name %></td>
+        <%= candidate.picture %>
+
+        <td><%= link_to "投票", vote_candidate_path(candidate), method: "post", data: { confirm: "本当にこのキャラに投票します?" } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
