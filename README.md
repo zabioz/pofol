@@ -1,10 +1,10 @@
-#使ったプログラム
+<h1>使ったプログラム</h1>
 
 Ruby on Rails
 
 Docker
 
-#screen shot
+<h1>screen shot</h1>
 <div><img width="1275" alt="2019-02-27 02 16 11" src="https://user-images.githubusercontent.com/44548905/53433129-2f23d300-3a37-11e9-842c-cfbcd70abe39.png">
   ホームページです。
   
