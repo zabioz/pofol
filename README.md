@@ -16,20 +16,28 @@
 
 <h1>screen shot/流れ</h1>
 <h2>トップ画面</h2>
-<div>![test](https://github.com/zabioz/pofol/tree/issue2/screenshot/top.png)</div>
+
+![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/top.png)
 
   <h2>キャラクター登録方法</h2>
-  <img width="466" alt="2019-02-27 12 47 55" src="https://user-images.githubusercontent.com/44548905/53464555-f5ca8200-3a8d-11e9-9c53-24d315a0cdbc.png">
+  
+  ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/right.png)
+
 <p>トップ画面の右にあるキャラクター登録をクリック</p>
 
-  <img width="1270" alt="2019-02-27 12 14 50" src="https://user-images.githubusercontent.com/44548905/53464083-61abeb00-3a8c-11e9-9640-e1f5965b020c.png">
   
-  <img width="1273" alt="2019-02-27 12 14 59" src="https://user-images.githubusercontent.com/44548905/53464084-61abeb00-3a8c-11e9-9cb0-afa43c0c0a65.png">
+![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/create1.png)
+
+  
+  
+![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/create2.png)
+
   
   
   <p>キャラクターの名前とイメージを書いて登録する。（イメージ登録技能は機能しません）</p>
   
-  <img width="1274" alt="2019-02-27 12 15 10" src="https://user-images.githubusercontent.com/44548905/53464085-61abeb00-3a8c-11e9-8bab-38fe3722cfb5.png">
+![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/testtop.png)
+
   登録が終わったらトップ画面に表示します。
   
 <h2>投票の方法</h2>
