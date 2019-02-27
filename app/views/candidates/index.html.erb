@@ -23,11 +23,12 @@
        </div>
     </ul>
       <% @candidates.each do |candidate| %>
-     
-        <li class="vote_name"> <%= candidate.name %>
-        <%= link_to "投票", vote_candidate_path(candidate), method: "post", data: { confirm: "本当にこのキャラに投票します?" } %></li>
         
-       
+        <li class="vote_name"> <%= candidate.name %>
+        <%= link_to "投票", vote_candidate_path(candidate), method: "post", data: { confirm: "本当にこのキャラに投票します?" } %>
+        <%= link_to "修正", edit_candidate_path(candidate) %>
+        <%= link_to "削除", candidate_path(candidate), method: "delete", data: { confirm: "確認刪除" } %>
+        </li>
       <% end %>
 
           </body>

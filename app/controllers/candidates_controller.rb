@@ -18,7 +18,28 @@ class CandidatesController < ApplicationController
         def c_new
           @picture = Picture.new
         end
-         
+        
+        def edit
+          @candidate = Candidate.find_by(id: params[:id])
+        end
+        
+        def update
+          @candidate = Candidate.find_by(id: params[:id])
+    
+          if @candidate.update(candidate_params)
+        
+            redirect_to candidates_path, notice: "success"
+          else
+        
+            render :edit
+          end
+        end
+        def destroy
+          @candidate = Candidate.find_by(id: params[:id])
+          @candidate.destroy if @candidate
+          redirect_to candidates_path, notice: "success"
+        end
+
         def vote
           @candidate = Candidate.find_by(id: params[:id])
           @candidate.vote_logs.create(ip_address: request.remote_ip) if @candidate
