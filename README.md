@@ -53,7 +53,7 @@
        <img width="1279" alt="2019-02-27 13 13 23" src="https://user-images.githubusercontent.com/44548905/53465513-90789000-3a91-11e9-89bd-0af22abefe32.png">
        <p>投票した結果も一緒に削除します。
   
-<h2>Character_infomation（キャラックター情報）画面<h2>
+<h2>Character_infomation（キャラックター情報）画面</h2>
 <img width="1272" alt="2019-02-27 02 22 29" src="https://user-images.githubusercontent.com/44548905/53433130-2f23d300-3a37-11e9-955a-fa81a2a6b991.png">
 <p>キャラクター一人一人にはlinkが張っています。
 
