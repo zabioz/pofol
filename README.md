@@ -28,7 +28,7 @@
   <img width="1273" alt="2019-02-27 12 14 59" src="https://user-images.githubusercontent.com/44548905/53464084-61abeb00-3a8c-11e9-9cb0-afa43c0c0a65.png">
   
   
-  <p>キャラクターの名前とイメージを書いて登録する。（イメージ登録は機能しません）
+  <p>キャラクターの名前とイメージを書いて登録する。（イメージ登録技能は機能しません）
   
   <img width="1274" alt="2019-02-27 12 15 10" src="https://user-images.githubusercontent.com/44548905/53464085-61abeb00-3a8c-11e9-8bab-38fe3722cfb5.png">
   登録が終わったらトップ画面に表示します。
