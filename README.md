@@ -59,16 +59,16 @@
   
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/resultupdate.png)
 
-    修正しても投票した結果は変わりません。
+ 修正しても投票した結果は変わりません。
     
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/delete.png)
 
    <p>トップ画面でキャラクターの下にある'削除'ボタンをクリックした画面です。</p>
      <p>投票と同じ方法で青の確認ボタンをクリックしたら削除が出来ます。</p>
      
-       ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/deldeteresult.png)
+![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/deleteresult.png)
        
-       <p>投票した結果も一緒に削除します。</p>
+ <p>投票した結果も一緒に削除します。</p>
   
 <h2>Character_infomation（キャラックター情報）画面</h2>
 
