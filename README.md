@@ -16,8 +16,7 @@
 
 <h1>screen shot/流れ</h1>
 <h2>トップ画面</h2>
-<img width="1280" alt="2019-02-27 12 11 20" src="https://user-images.githubusercontent.com/44548905/53464079-61135480-3a8c-11e9-8560-bbaed15b7aff.png">
-  
+![screenshot](pofol/screenshot/스크린샷 2019-02-27 12.11.20.png)
   
   <h2>キャラクター登録方法</h2>
   <img width="466" alt="2019-02-27 12 47 55" src="https://user-images.githubusercontent.com/44548905/53464555-f5ca8200-3a8d-11e9-9c53-24d315a0cdbc.png">
