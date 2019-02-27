@@ -53,16 +53,14 @@
        <img width="1279" alt="2019-02-27 13 13 23" src="https://user-images.githubusercontent.com/44548905/53465513-90789000-3a91-11e9-89bd-0af22abefe32.png">
        <p>投票した結果も一緒に削除します。
   
-  
+<h2>Character_infomation（キャラックター情報）画面<h2>
 <img width="1272" alt="2019-02-27 02 22 29" src="https://user-images.githubusercontent.com/44548905/53433130-2f23d300-3a37-11e9-955a-fa81a2a6b991.png">
-<p>Character_infomation（キャラックター情報）画面です。
-<p>キャラクターにはlinkが張っています。
-
+<p>キャラクター一人一人にはlinkが張っています。
 
 <img width="1256" alt="2019-02-27 02 04 00" src="https://user-images.githubusercontent.com/44548905/53431569-1fef5600-3a34-11e9-8115-d67364084262.png">
 <p>キャラクターをクリックしたら出る画面です
-<p>色んな情報が書いてます特に原作の項目にはどこから生まれたキャラクターかを、教えるリンクが張っています。
-
+<p>色んな情報が書いてます。
+  <p>特に原作の項目にはどこから生まれたキャラクターかを、教えるリンクが張っています。
 
  <img width="1278" alt="2019-02-27 02 50 15" src="https://user-images.githubusercontent.com/44548905/53434675-7790c000-3a3a-11e9-8008-fe7208cc0923.png">
 キャラクター情報を登録する画面です（エラーはないんですが作動はしません）
