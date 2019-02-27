@@ -8,7 +8,7 @@ class CandidatesController < ApplicationController
         end  
         def index
               @candidates = Candidate.all
-              @pictures = Picture.all
+            
         end
          
         def new
@@ -48,6 +48,7 @@ class CandidatesController < ApplicationController
         def create
         @picture = Picture.new(picture_params)
         end
+        
         def create
           @candidate = Candidate.new(candidate_params)
           if @candidate.save
@@ -61,9 +62,7 @@ class CandidatesController < ApplicationController
       def candidate_params
         params.require(:candidate).permit(:name)
       end
-      def picture_params
-        params.require(:picture).permit(:image)
-      end
+      
       def find_candidate
           @candidate = Candidate.find_by(id: params[:id])
         end
