@@ -8,7 +8,7 @@ class CandidatesController < ApplicationController
         end  
         def index
               @candidates = Candidate.all
-              @pictures = Picture.all
+            
         end
          
         def new
@@ -18,7 +18,28 @@ class CandidatesController < ApplicationController
         def c_new
           @picture = Picture.new
         end
-         
+        
+        def edit
+          @candidate = Candidate.find_by(id: params[:id])
+        end
+        
+        def update
+          @candidate = Candidate.find_by(id: params[:id])
+    
+          if @candidate.update(candidate_params)
+        
+            redirect_to candidates_path, notice: "success"
+          else
+        
+            render :edit
+          end
+        end
+        def destroy
+          @candidate = Candidate.find_by(id: params[:id])
+          @candidate.destroy if @candidate
+          redirect_to candidates_path, notice: "success"
+        end
+
         def vote
           @candidate = Candidate.find_by(id: params[:id])
           @candidate.vote_logs.create(ip_address: request.remote_ip) if @candidate
@@ -27,6 +48,7 @@ class CandidatesController < ApplicationController
         def create
         @picture = Picture.new(picture_params)
         end
+        
         def create
           @candidate = Candidate.new(candidate_params)
           if @candidate.save
@@ -40,9 +62,7 @@ class CandidatesController < ApplicationController
       def candidate_params
         params.require(:candidate).permit(:name)
       end
-      def picture_params
-        params.require(:picture).permit(:image)
-      end
+      
       def find_candidate
           @candidate = Candidate.find_by(id: params[:id])
         end

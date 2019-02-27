@@ -89,7 +89,8 @@ li {
     margin-right: auto;
  } 
  li.vote_name {
-    margin: 0 10%;    
+    margin: 0 7%;
+    padding: 0 0;
     float: center;
 }
 table {
