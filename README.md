@@ -51,26 +51,37 @@
     投票が終わったらResult（結果）画面で確認出来ます。
   
 <h2>登録したキャラクターを修正と削除する方法</h2>
-  ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/update.png)
 
+  ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/update.png)
+  
   <p>トップ画面でキャラクターの下にある'修正'ボタンをクリックした画面です。</p>
   <p>登録と同じ方法で修正が出来ます。</p>
+  
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/resultupdate.png)
+
     修正しても投票した結果は変わりません。
+    
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/delete.png)
+
    <p>トップ画面でキャラクターの下にある'削除'ボタンをクリックした画面です。</p>
      <p>投票と同じ方法で青の確認ボタンをクリックしたら削除が出来ます。</p>
+     
        ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/deldeteresult.png)
+       
        <p>投票した結果も一緒に削除します。</p>
   
 <h2>Character_infomation（キャラックター情報）画面</h2>
+
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/infotop.png)
+
 <p>キャラクター一人一人にはlinkが張っています。</p>
+
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/info.png)
 
 <p>キャラクターをクリックしたら出る画面です</p>
 <p>色んな情報が書いてます。</p>
   <p>特に原作の項目にはどこから生まれたキャラクターかを、教えるリンクが張っています。</p>
+  
 ![test](https://github.com/zabioz/pofol/blob/issue2/screenshot/infocreate.png)
 
 キャラクター情報を登録する画面です（エラーはないんですが作動はしません）
